@@ -1,0 +1,14 @@
+.form_container{
+    border:1px solid red;
+    width:40%;
+    
+    height:300px;
+  }
+  .form_container form{
+     display:flex;
+     flex-direction: column;
+     text-align: left;
+  }
+  .form_container form>div{
+     margin-bottom: 20px;
+  }
